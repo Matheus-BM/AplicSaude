@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplic Saúde</title>
+    <link rel="stylesheet" href="./css/style-geral.css">
+    <link rel="stylesheet" href="./css/style-forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container-cadastro">
+        <div class="side-img">
+            <img src="./img/logo-completa.svg" alt="Logo completa">
+        </div>
+        <div class="top-bar">
+            <h1>Registro</h1>
+            <img src="./img/logo-min.svg" alt="Logo completa">
+        </div>
+        <div class="col w-100 h-100 centro">
+           
+            <form id="cadastro" class="col" action="">
+                <h1>Criar conta</h1>
+                <div class="form-group col">
+                    <Label>Nome de usuario</Label>
+                    <input type="text">
+                </div>
+                <div class="form-group col">
+                    <label for="">E-mail</label>
+                    <input type="email">
+                </div>
+                <div id="pass-group" class="form-group row w-100 centro">
+                    <div class="col">
+                        <label for="">Senha</label>
+                        <input id="pass-input" type="password">
+                    </div>
+                    <div class="col">
+                         <label for="">Digite novamente</label>
+                         <input type="password">
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="">Plano</label>
+                    <select name="" id="">
+                        <option value="">Plano 1</option>
+                        <option value="">Plano 2</option>
+                        <option value="">Plano 3</option>
+                    </select>
+                </div>
+                <div class="form-group col">
+                    <div class="row">
+                        <input type="checkbox" name="termos de uso" id="checkbox-termos">
+                        <span> Eu concordo com os termos de uso </span> 
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <a id="btn-finalizar" class="btn" href="menu.html"> Finalizar</a>
+
+                </div>
+               
+    
+            </form>
+        </div>
+       
+    </div>
+    
+</body>
+</html>
