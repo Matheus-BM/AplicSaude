@@ -33,6 +33,10 @@ i{
     margin: -2em 0 2em 0;
     font-size: 40px;
 }
+.col.w-100.h-100.centro a{
+    color: black;
+}
+
 
 .container{
     margin: auto;

@@ -1,0 +1,47 @@
+#container-dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    cursor: default;
+}
+#container-dados .row{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-dados .btn{
+    background: none;
+    color: black;
+    border:black 2px solid;
+}
+#fotoPerfil{
+    height: 150px;
+    width: auto;
+}
+#logo-completa-azul{
+    height:  50px;
+    width: auto;
+}
+#logo-container{
+    width: 80%;
+}
+
+@media screen and (max-width:860px) {
+    i.fas.fa-chevron-left{
+        color: white;
+        margin-left: 20px;
+    }
+    #logo-container{
+        display: none;
+    }
+
+    #container-dados .btn{
+        background: none;
+        color: black;
+        border:black 2px solid;
+        font-size: 20px;
+    }
+}
