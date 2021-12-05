@@ -36,7 +36,12 @@ i{
 .col.w-100.h-100.centro a{
     color: black;
 }
-
+.row.w-80.justify-between{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
 
 .container{
     margin: auto;

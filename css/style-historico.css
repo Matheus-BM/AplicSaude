@@ -1,0 +1,36 @@
+#historico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+#historico1{
+    margin-top: auto;
+}
+#container-historico{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#container-hist{
+    width: 100%;
+}
+#barra-de-busca{
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 20px;
+    margin: 20px;
+}
+i{
+    font-size: 20px;
+}
+input{
+    border: none;
+}
+
+@media screen and (max-width:860px) {
+    #title{
+        display: none;
+    }
+}
