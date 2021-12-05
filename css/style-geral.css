@@ -58,7 +58,6 @@ a{
     margin-left: 2em;
 }
 
-
 .btn{
     background-color: var(--cor-principal);
     border: none;
@@ -148,7 +147,7 @@ a{
     }
     .col.w-100.h-100.centro{
         min-width: 300px;
-        height: auto;
+        
     }
 
     #container-cadastro{
