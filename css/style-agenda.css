@@ -1,0 +1,42 @@
+#number{
+    display: flex;
+    flex-wrap: wrap;
+}
+#number p{
+    margin: 4px;
+    flex: 0 1 calc(13% - 8px); /* <-- adjusting for margin */
+}
+#number p:nth-child(4) , #number p:nth-child(21), #number p:nth-child(16) {
+    background-color:var(--cor-principal);
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+}
+
+#calendario{
+    height: 200px;
+    margin: auto;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 860px) {
+    #calendario{
+        margin-bottom: 50px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    #number p{
+        margin: 4px;
+        flex: 0 1 calc(13% - 8px);
+    }
+    #number p:nth-child(27),#number p:nth-child(28){
+        justify-self: flex-start;
+    }
+}
