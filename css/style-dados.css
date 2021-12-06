@@ -32,7 +32,9 @@
 @media screen and (max-width:860px) {
     i.fas.fa-chevron-left{
         color: white;
-        margin-left: 20px;
+        position: absolute;
+        top:20px;
+        left: 20px;
     }
     #logo-container{
         display: none;
