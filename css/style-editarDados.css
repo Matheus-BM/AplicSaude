@@ -1,0 +1,59 @@
+.editar-dados {
+  margin-top: 20px;
+}
+
+#col-edit {
+  margin: 0;
+}
+
+.row-edit {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto auto 0;
+}
+
+.input-editar-dados {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.row-edit input::placeholder {
+  color: black;
+}
+
+#edit-nasc {
+  width: 200px;
+  margin-left: 30px;
+}
+
+#btn-salvar {
+  margin: 20px auto auto 0;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#container-dados-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+  width: 600px;
+  cursor: default;
+}
+
+@media screen and (max-width: 860px) {
+  .input-editar-dados {
+    width: 180px;
+  }
+
+  #edit-nasc {
+    width: 180px;
+  }
+
+  #container-dados-edit {
+    width: 300px;
+  }
+}
